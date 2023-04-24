@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2f363e;
+    /*
+    background: url(img/4k-wallpaper-4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    */
+}
+
+#clock {
+    font-size: 120px;
+    display: flex;
+    border-bottom: #2937fc 4px solid;
+    border-top: #eb175e 4px solid;
+    border-left: #fee800 4px solid;
+    border-right: #fee800 4px solid;
+    font-family: sans-serif;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 40px #000;
+}
+
+#clock:hover {
+    background: #25364b;
+}
+
+#hours {
+    color: #eb175e;
+}
+
+#minutes {
+    color: #fee800;
+}
+
+#seconds {
+    color: #2230f1;
+}
+
+#ampm {
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 5px;
+    color: rgb(230, 225, 225);
+}
